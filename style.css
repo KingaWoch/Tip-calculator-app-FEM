@@ -123,10 +123,9 @@ button {
 .tip-field input::placeholder {
   color: var(--Dark-grayish-cyan);
 }
-
 #bill.error,
 #people.error {
-  border: 2px solid rgb(223, 33, 33);
+  outline: 2px solid rgb(223, 33, 33);
   border-radius: 0.3rem;
 }
 
@@ -197,7 +196,7 @@ button {
 
 /* RESPONSIVE */
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   body {
     place-content: center;
     gap: 5rem;

@@ -30,7 +30,6 @@
         <div class="inputs-container">
           <div class="input-field">
             <label for="bill">Bill</label>
-            <span class="error-msg">Can't be zero</span>
             <input id="bill" type="number" placeholder="0" />
             <img src="images/icon-dollar.svg" alt="" />
           </div>
@@ -38,7 +37,7 @@
             <label for="tip">Select Tip %</label>
             <button type="button" class="tip-value">5%</button>
             <button type="button" class="tip-value">10%</button>
-            <button type="button" class="tip-value active">15%</button>
+            <button type="button" class="tip-value">15%</button>
             <button type="button" class="tip-value">25%</button>
             <button type="button" class="tip-value">50%</button>
             <input type="number" placeholder="Custom" id="tip-custom" />
@@ -56,14 +55,14 @@
               <span>Tip Amount</span> <br />
               / person
             </p>
-            <p id="tip-amount-value">$0.00</p>
+            <p id="tip-amount-value"></p>
           </div>
           <div class="total">
             <p>
               <span>Total</span> <br />
               / person
             </p>
-            <p id="total-value">$0.00</p>
+            <p id="total-value"></p>
           </div>
           <button type="reset" id="reset-btn">Reset</button>
         </div>
