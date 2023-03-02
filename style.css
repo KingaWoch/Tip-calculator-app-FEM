@@ -202,6 +202,9 @@ button {
   #form {
     max-width: 900px;
     grid-template-columns: 1fr 1fr;
+    -webkit-box-shadow: 0px 36px 45px -6px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 36px 45px -6px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 36px 45px -6px rgba(0, 0, 0, 0.09);
   }
 
   .tip-field {
